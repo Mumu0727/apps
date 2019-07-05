@@ -7,7 +7,7 @@
                 <div class="member_top_bg"><img  src="../assets/images/member_bg.png"></div>
                 <div class="member_m_pic member_m_pic_1">
                     <img class="img-circle" 
-                    :src="'http://localhost:3000/'+user.icon">
+                    :src="'http://106.15.46.13:3000'+user.icon">
                         </div>
                 <div  class="member_m_z member_m_z_1">
                     <div class="member_m_x">{{user.username}}</div>
@@ -18,7 +18,7 @@
                 </router-link>
             </div></a>
             <div class="member_mp_img" style="color:#fff;font:12px/1 ''" @click="logout">注销</div>
-            <div class="list-group mb10" style="width:100%;">
+            <div class="list-group mb10">
                 <a href="/p/userOrder" class="list-group-item tip" style="overflow: hidden;">
                     <div class="list_group_img" style="float:left;">
                     <img src="../assets/images/member_img16.png"></div>
@@ -118,12 +118,16 @@ export default {
 }
 </script>
 <style scoped>
+.row{background: #fff;}
+.tip{display: block;}
 .col-xs-4{float: left !important; width: 25%;text-align: center;}
 .col-xs-3{width: 25% !important;text-align: center !important;}
 .list-group-item_3{border-top:none;}
 .order_tab_link .order_img{display: block; margin: 0 auto; text-align: center; width: 30%; margin-bottom:3px;}
 .order_tab_link .order_img img,.member_list_group .m_img img{max-width:100%; display:inline-block;}
-
+.member_list_group{display: flex;border-bottom: solid 1px #e5e5e5;}
+.list-group{padding: 10px 10px;box-sizing: border-box;}
+.list-group-item{width: 100%;box-sizing: border-box;padding: 10px;border-top:#e5e5e5 1px solid;}
 .list-group-item:first-child{border-top-left-radius:0; border-top-right-radius:0;}
 .list-group-item:last-child{margin-bottom:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
 .list_group_img{float:left; margin-top:-3px; margin-right:5px;}

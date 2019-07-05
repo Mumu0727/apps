@@ -80,29 +80,6 @@ export default {
 </script>
 
 <style scoped>
-.control-num a{display: block;width: 10px;height: 10px;background: #333;margin-top: 5px;}
-.p-info .p-title{color: #333; height: 40px;line-height:20px;overflow: hidden;word-break: break-all; margin:0;}
 
-.rowcar{padding-bottom: 50px;}
-.buy-btn-fix{padding:8px; position:absolute; right:0; top:0;}
-
-.list-group-item:first-child{border-top-left-radius:0;border-top-right-radius:0}
-.list-group-item:last-child{margin-bottom:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
-.member_list_group .list-group-item{border-left:none; min-height:100px; text-align:center; padding:15px 0;}
-.member_list_group .list-group-item .m_name{margin:5px 0 3px; color:#333;}
-.list-group-item_3{border-top:none;}
-.icheck input[type="checkbox"],.icheck input[type="radio"] {display: none;}
-.icheck label{margin-bottom:0;}
-.icheck input[type="checkbox"] + label span,
-.icheck input[type="radio"] + label span {display:inline-block;width:30px;height:30px;position: relative;top: -5px; float:left; cursor:pointer; background:url(../assets/images/icon.png) no-repeat; background-size: 300px 95px;}
-.icheck input[type="checkbox"] + label span{background-position:-252px 0px;}
-.icheck input[type="radio"] + label span{background-position:-253px -35px;}
-.icheck input[type="checkbox"]:checked + label span{background-position:-216px 0px;}
-.icheck input[type="radio"]:checked + label span{background-position:-217px -35px;}
-.hproduct{padding: 10px; height: auto; min-height: 40px;position: relative;border-bottom: 1px solid #e5e5e5;}
-.buy-area .btn-share .glyphicon{background:#fff; border-radius:50%; color:#f63234; padding:2px; font-size:10px; margin:1px 3px 0 0; float:left;}
-.fixed-foot{height: 50px; z-index: 999; position: fixed; bottom: 0;left: 0; right: 0;width:100%; }
-.fixed_inner{margin:0 auto;position: relative;background:#fff;border-top:1px solid #ccc; max-width: 768px;}
-.pay-point{line-height:50px; padding:0 10px;}
 
 </style>

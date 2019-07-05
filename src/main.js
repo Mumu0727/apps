@@ -2,13 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 
 
-// import $ from 'jquery'
 
 import 'animate.css';
 
 import './assets/css/style.css'
-
-import './assets/css/bootstrap.css'
 
 import './assets/js/TouchSlide.js'
 // 引入状态管理

@@ -21,14 +21,14 @@ export default {
   [VIEW_FOOT] : ({state,commit},payload) => commit(VIEW_FOOT,payload),
 
   [VIEW_LIST] : async ({state,commit},payload)=> {
-    let res = await axios({url:'m_v1/statics/getzx.htm',
+    let res = await axios({url:'https://m.jiuxian.com/m_v1/statics/getzx.htm',
       params:{topicId:1165,pageNum:payload}
     })
     // console.log(res.data.promoList)
     commit(VIEW_LIST,res.data.promoList)
   },
   [VIEW_DETAIL] : async ({state,commit},payload)=> {
-    let res = await axios({url:`m_v1/goods/detailPromo/${payload}`,
+    let res = await axios({url:`https://m.jiuxian.com/m_v1/goods/detailPromo/${payload}`,
     method: 'post'
     })
     commit(VIEW_DETAIL,res.data.productPromo)

@@ -3,7 +3,7 @@
         <header class="header">
             <div class="fix_nav">
                 <div style="max-width:768px;margin:0 auto;height: 44px;position: relative;background:#000000;">
-                    <form action="/m_search/list" method="get" id="searchform" name="searchform">
+                    <form action="/m_search/list" method="get" id="searchform" name="searchform" class="form_box">
                         <div class="navbar-search left-search">
                                 <input type="text" id="keyword" name="keyword" value="" placeholder="搜索商品" class="form-control">
                         </div>
@@ -79,18 +79,20 @@ export default {
 
 .nav_inner{max-width:768px;margin:0 auto;background:#000000; position: relative;}
 .navbar-search{height: 100%; top:0; position: absolute; width: auto !important;}
+.form_box{width: 100%;height: 44px; display: flex;}
 .left-search{padding-right: 0;left:5px;right: 55px;}
 .right-search{padding-right: 0;right:5px;left: 55px;}
-.left-search .form-control{background:#fff url(./../assets/images/search.jpg) no-repeat 5px center; background-size: 25px;padding-left: 30px;margin-top:5px;height: 34px;}
-.right-search .form-control{background:#fff url(./../assets/images/search.jpg) no-repeat right center; background-size: 25px; margin-top:5px;}
+.left-search .form-control{background:#fff url(./../assets/images/search.jpg) no-repeat 5px center; background-size: 25px;padding-left: 30px;margin-top:5px;height: 30px;width: 90%;border-radius: 5px;}
+.right-search .form-control{background:#fff url(./../assets/images/search.jpg) no-repeat right center; background-size: 25px; margin-top:5px;width: 18%;}
 .nav-left,.nav-right{width:42px; height:34px; position:absolute; top:5px; display:block; overflow:hidden; text-indent:-999px;border-radius: 5px;}
 .nav-left{left:5px;}
-.nav-right{right:5px;text-align: center;z-index: 99}
+.nav-right{right:5px;text-align: center;z-index: 99;width: 10%}
 .tit{color: #fff;/* font-size: 18px; */font-weight: normal;height: 100%; text-align: center;font-size:18px;}
 .fixed-foot{height: 50px; z-index: 999; position: fixed; bottom: 0;left: 0; right: 0;width:100%; }
 .fixed_inner{margin:0 auto;position: relative;background:#fff;border-top:1px solid #ccc; max-width: 768px;}
 
-.category{padding:10px 0; text-align:center; background:#fff; border-bottom:1px solid #e5e5e5;margin-bottom: 10px;}
+.category{padding:10px 0; text-align:center; background:#fff; border-bottom:1px solid #e5e5e5;margin-bottom: 10px;display: flex;}
+.col-3{width: 25%;}
 .category img{width:75%;}
 .category h4{margin:5px 0 0 0; font-size:12px;}
 @media screen and (min-width: 767px){	
