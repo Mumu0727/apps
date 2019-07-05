@@ -1,0 +1,8 @@
+export const VIEW_NAV = 'VIEW_NAV'
+export const VIEW_FOOT = 'VIEW_FOOT'
+export const VIEW_BANNER = 'VIEW_BANNER'
+export const VIEW_LIST = 'VIEW_LIST'
+export const VIEW_DETAIL = 'VIEW_DETAIL'
+export const UPDATA_USER = 'UPDATA_USER'
+export const LOGOUT = 'LOGOUT'
+export const LOGIN = 'LOGIN'
