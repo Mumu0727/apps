@@ -1,3 +1,12 @@
+<!--
+ * @Description:
+ * @Author: muqingkun
+ * @Date: 2023-11-14 18:36:47
+ * @LastEditTime: 2023-11-14 18:45:49
+ * @LastEditors: muqingkun
+ * @Reference:
+-->
+
 # 来自 https://github.com/UxxHans/Rainbow-Cats-Personal-WeChat-MiniProgram 稍加调整 适用于我和宝宝的小程序
 
 ## 序言
